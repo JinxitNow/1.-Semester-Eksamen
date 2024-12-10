@@ -1,71 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
   <link rel="stylesheet" href="stylesheet.css">
+  <title>Justine Kayser Portfolio</title>
 </head>
 <body>
-  
-<!-- Header Section -->
   <header>
-    <div class="logo">JK</div>
+    <div class="logo">
+      <img src="Billeder/Logo white.png" alt="Justine Kayser Logo">
+    </div>
     <nav>
       <ul>
-        <li><a href="index.html">Forside</a></li>
+        <li><a href="index.html" class="active">Forside</a></li>
         <li><a href="portfolie.html">Portfolio</a></li>
-        <li><a href="ommig.html">Om mig</a></li>
+        <li><a href="ommig.html">Om Mig</a></li>
         <li><a href="kontakt.html">Kontakt</a></li>
       </ul>
     </nav>
   </header>
 
-<!-- Main Content -->
   <main>
-
-<!-- Introduction Section -->
-    <section class="intro">
-      <h1>Overskrift</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-<!-- Button on the First Page -->
-    <a href="ommig.html">
-    <button class="link-button">Se mere</button>
-  </a>
-  
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Visuel Historiefortælling</h1>
+        <p>Kreativitet og innovation mødes her – skab noget unikt med Justine Kayser.</p>
+        <button onclick="window.location.href='portfolie.html'">Se Portfolio</button>
+      </div>
     </section>
 
-<!-- Gallery Section -->
-    <section class="gallery">
-      <h2>Subheader</h2>
-      <div class="grid">
-        <div class="grid-item"></div>
-        <div class="grid-item"></div>
-        <div class="grid-item"></div>
-        <div class="grid-item"></div>
-        <div class="grid-item"></div>
-        <div class="grid-item"></div>
+    <section class="about-preview">
+      <div class="text-content">
+        <h2>Om Mig</h2>
+        <p>Jeg er en kreativ designer med fokus på visuel storytelling og teknisk dygtighed. Lad os skabe noget fantastisk sammen!</p>
+        <button onclick="window.location.href='ommig.html'">Læs Mere</button>
       </div>
-      
-      
-<!-- Button on the First Page -->
-    <a href="portfolie.html">
-    <button class="link-button">Se mere</button>
-  </a>
-  
+      <div class="image-content">
+        <img src="Billeder/Portrait.jpg" alt="Justine Kayser">
+      </div>
+    </section>
+
+    <section class="gallery-preview">
+      <h2>Udvalgte Projekter</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item"> <img src="Billeder/Self-portrait.png" alt="Self-portrait"> </div>
+        <div class="gallery-item">
+            <div class="animation"></div>
+        </div>
+        <div class="gallery-item"></div>
+        <div class="gallery-item"></div>
+        <div class="gallery-item"></div>
+        <div class="gallery-item"></div>
+      </div>
+      <button onclick="window.location.href='portfolie.html'">Se Mere</button>
     </section>
   </main>
 
-<!-- Footer Section -->
   <footer>
     <div class="social-links">
-      <a href="#">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/justine-kayser-907b40182/">LinkedIn</a>
       <a href="#">X</a>
       <a href="#">Instagram</a>
-      <a href="#">Facebook</a>
+      <a href="https://www.facebook.com/justine.meier.39/">Facebook</a>
     </div>
-    <p>© All rights reserved</p>
+    <p>© Justine Kayser. Alle rettigheder forbeholdes.</p>
   </footer>
 </body>
 </html>
