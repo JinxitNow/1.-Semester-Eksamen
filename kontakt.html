@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesheet.css">
+  <title>Om Mig – Justine Kayser</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="billeder/Logo white.png" alt="Justine Kayser Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Forside</a></li>
+        <li><a href="portfolie.html">Portfolio</a></li>
+        <li><a href="ommig.html">Om Mig</a></li>
+        <li><a href="kontakt.html" class="active">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+<main>  <section class="hero small-hero">
+  <div class="hero-content">
+    <h1>Kontakt mig</h1>
+    <p>Jeg vil gerne høre fra dig! Udfyld venligst formularen, og jeg vil vende tilbage hurtigst muligt.</p>
+  </div>
+</section>
+    <section class="contact-section">
+        
+
+        <!-- Contact Form -->
+        <form id="contact-form" action="javascript:void(0);">
+            <label for="name">Navn:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Besked:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" class="submit-button">Send besked</button>
+        </form>
+
+        <div id="success-message" class="hidden">
+            <p>Tak! Din besked er blevet sendt. Jeg vender tilbage hurtigst muligt.</p>
+        </div>
+    </section>
+  </main>
+    <footer>
+        <div class="social-links">
+          <a href="#">LinkedIn</a>
+          <a href="#">X</a>
+          <a href="#">Instagram</a>
+          <a href="#">Facebook</a>
+        </div>
+        <p>© Justine Kayser. Alle rettigheder forbeholdes.</p>
+      </footer>
+    </body>
+    </html>
+    
+    
