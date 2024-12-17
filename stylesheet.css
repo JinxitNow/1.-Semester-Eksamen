@@ -447,6 +447,16 @@
     margin-bottom: 30px;
 }
 
+.contact-section button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #009688;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -479,3 +489,4 @@ form button {
 form button:hover {
     background-color: #006d59;
 }
+
